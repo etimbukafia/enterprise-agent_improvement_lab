@@ -94,30 +94,3 @@ Run the deterministic calculator reference cycle without a model key:
 python -m examples.calculator_agent.run_cycle
 ```
 
-## Repository map
-
-```text
-docs/                                   architecture, decisions, migration, and integration guides
-examples/                               deterministic reference examples
-src/enterprise_agent_improvement_lab/   installable core package
-src/enterprise_agent_improvement_lab/integrations/  external runtime integrations
-src/enterprise_agent_improvement_lab/evaluators/    evaluator catalog
-tests/                                  behavior and integration tests
-```
-
-## Key documentation
-
-- `docs/ARCHITECTURE.md` — product and system boundaries.
-- `docs/DECISIONS.md` — architecture decisions.
-- `docs/INTEGRATION_GUIDE.md` — runtime integration guide.
-- `docs/API_MIGRATION.md` — canonical enterprise API migration.
-- `docs/PYDANTIC_EVALS.md` — optional Pydantic Evals integration.
-- `docs/NON_GOALS.md` — explicit product limits.
-
-## Version
-
-Current package version: `0.1.0`.
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE).
